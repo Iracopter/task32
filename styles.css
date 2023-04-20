@@ -310,7 +310,7 @@
 .Education {
   width: 659px;
   height: 157px;
-  padding: 0px calc(0.5rem + 2.5vmin) 549px calc(0.5rem + 2.5vmin);
+  padding: 0px calc(0.5rem + 2.5vmin) 0px calc(0.5rem + 2.5vmin);
   width: 559px;
   height: 57px;
   font-family: var(--font-for-document);
@@ -322,7 +322,7 @@
 
 .Projects{
   margin-left: 35px;
-  margin-bottom: 700px;
+  margin-top: 160px;
 }
 
 
@@ -339,7 +339,7 @@
   line-height: 30px;
   border: solid 2px var(--color-text);
   padding: 5px;
-  height: 90px;
+  height: auto;
 }
 
 .links {
@@ -378,13 +378,6 @@
   margin-right: 10px;
 }
 
-/*.img:hover {
-  transition-duration: 2s;
-  transform: scale(1.75);
-  padding-left: 20%;
-  box-shadow: 10px 10px 16px rgba(0, 0, 0, 0.25);
-}*/
-
 .header {
   margin-bottom: 40px;
 }
@@ -409,55 +402,3 @@ th, td {
   padding: 10px;
 }
 
-/*.document {
-  max-width: 1024px;
-  position: fixed;
-  top: calc(50% - 239.5px);
-  left: calc(50% - 167.22px);
-  -webkit-animation: scl 2s linear;
-          animation: scl 2s linear;
-}*/
-
-/*input[type=submit] {
-  height: 30px;
-  width: 100px;
-  color: white;
-  background-color: #00f;
-  border-radius: 10px;
-  border: 0;
-  margin-bottom: 20px;
-  margin-left: 20px;
-}
-
-input[type=submit]:hover {
-  color: white;
-  background-color: #005;
-}
-
-input:focus {
-  outline: solid #00f;
-}
-
-input[type=text] {
-  border-color: black;
-  height: 30px;
-  margin-left: 40px;
-}
-
-input:invalid {
-  border-color: red;
-}
-
-.error {
-  display: none;
-  color: red;
-}
-
-input[type=text]:invalid + .error {
-  margin-left: 90px;
-  display: block;
-}
-
-#description_input:focus {
-  outline: 2px solid #00f;
-}/*# sourceMappingURL=styles.css.map */
